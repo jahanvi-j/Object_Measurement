@@ -41,9 +41,13 @@ In this project I created a code to read an image and identify various objects o
 9. Draw boundary boxes around each object and calculate its height and width.
 
 # Output
+Example 1 
 
-<img src = "images/result_03.png">
-<img src = "images/result_01.png">
+<img src = "result_03.png">
+
+Example 2
+
+<img src = "result_01.png">
 
 # Limitations
 
