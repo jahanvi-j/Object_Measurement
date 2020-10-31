@@ -4,13 +4,13 @@ In this project I created a code to read an image and identify various objects o
 
 # Modules Used
 
-1. Python 3
+* Python 3
 
-2. OpenCV
+* OpenCV
 
-3. Numpy
+* Numpy
 
-4. Imutils
+* Imutils
 
 # Image Constraints
 
