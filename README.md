@@ -1,44 +1,44 @@
-# Object_Measurement in Python OpenCV
+# Object Measurement in Python OpenCV
 
-In this project i create a code to read an image and identify various objects on it, with one object being reference object, it identifies dimension of all other objects in the image with respect to it. As a result an the dimensions of all objects in image is returned.
+In this project I created a code to read an image and identify various objects on it. With one object being reference object, it identifies dimension of all other objects in the image with respect to it. As a result an the dimensions of all objects in image is returned.
 
 # Modules Used
 
-Python 3
+1. Python 3
 
-OpenCV
+2. OpenCV
 
-Numpy
+3. Numpy
 
-Imutils
+4. Imutils
 
 # Image Constraints
 
-Backround: background must be significantly light/ dark with respeect to objects.
+* Backround: background must be significantly light/ dark with respeect to objects.
 
-Distance: Considerble distance b/w object should be maintained.
+* Distance: Considerble distance b/w object should be maintained.
 
-Size: Object must be significantly big to be measured.
+* Size: Object must be significantly big to be measured.
 
 # Steps Followed
 
-Read an image. 
+1. Read an image. 
 
-Convert image into grayscale.
+2. Convert image into grayscale.
 
-Find contours.
+3. Find contours.
 
-Remove small contours.
+4. Remove small contours.
 
-Sort contours from left to right to find the reference object.
+5. Sort contours from left to right to find the reference object.
 
-Reference object (here leftmost box 2 cm * 2cm ).
+6. Reference object (here leftmost box 2 cm * 2cm ).
 
-Calculate pixels per cm.
+7. Calculate pixels per cm.
 
-Calculate Results. 
+8. Calculate Results. 
 
-Draw boundary boxes around each object and calculate its height and width.
+9. Draw boundary boxes around each object and calculate its height and width.
 
 # Output
 
@@ -46,11 +46,11 @@ Draw boundary boxes around each object and calculate its height and width.
 
 # Limitations
 
-Only work for clear 2D objects.
+* Only work for clear 2D objects.
 
-Image should be in perfect top-down view.
+* Image should be in perfect top-down view.
 
-Not very accurate.
+* Not very accurate.
 
 # Authors
 
