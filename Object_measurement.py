@@ -49,7 +49,6 @@ dist_cm = 2
 pixel_percm = dist_pixel/dist_cm
 
 # Draw rest contours 
-
 for i in cn:
     box = cv2.minAreaRect(i)
     box = cv2.boxPoints(box)
