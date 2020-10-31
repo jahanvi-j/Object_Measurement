@@ -42,7 +42,8 @@ In this project I created a code to read an image and identify various objects o
 
 # Output
 
-![images](Output_03.png)
+<img src = "images/result_03.png">
+<img src = "images/result_01.png">
 
 # Limitations
 
