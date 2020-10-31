@@ -12,14 +12,6 @@ In this project I created a code to read an image and identify various objects o
 
 * Imutils
 
-# Image Constraints
-
-* Backround: background must be significantly light/ dark with respeect to objects.
-
-* Distance: Considerble distance b/w object should be maintained.
-
-* Size: Object must be significantly big to be measured.
-
 # Steps Followed
 
 1. Read an image. 
@@ -48,6 +40,15 @@ Example 1
 Example 2
 
 <img src = "result_01.png">
+
+# Image Constraints
+
+* Backround: background must be significantly light/ dark with respeect to objects.
+
+* Distance: Considerble distance b/w object should be maintained.
+
+* Size: Object must be significantly big to be measured.
+
 
 # Limitations
 
